@@ -6,8 +6,9 @@ int main() {
     int n;
     cin >> n;
     
-    if(n < 5) cout << "tiny" << endl;
     
     cout << n * n;
+    if(n < 5) cout << "tiny" << endl;
+    
     return 0;
 }
